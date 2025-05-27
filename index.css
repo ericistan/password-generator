@@ -17,12 +17,8 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
     margin: 0;
-    padding: 0 5%;
     color: #D5D4D8;
     font-family: "Inter", sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 button {
@@ -38,10 +34,7 @@ button {
 }
 
 .container-large {
-    width: 100%;
     max-width: 80rem;
-    
-    
 }
 
 .padding-section-large {
@@ -49,10 +42,10 @@ button {
 }
 
 #section-password-generator {
-    margin-top: 3rem;
+    margin: 3rem auto 0;
     background-color: #1F2937;
     padding: 0 3.25rem;
-    width: 550px;
+    max-width: 34.375rem;
     border-radius: 1rem;
 }
 
